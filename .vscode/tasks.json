@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "g++: сборка",
+            "command": "C:\\compiler\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-I${workspaceFolder}\\headers",
+                "${workspaceFolder}\\*.cpp",
+                "${workspaceFolder}\\S3_sources\\*.cpp",
+                "${workspaceFolder}\\S4_sources\\*.cpp",
+                "${workspaceFolder}\\S5_sources\\*.cpp",
+                "-o",
+                "${fileDirname}\\compiled\\LR1_var4.exe"
+            ],
+            "options": {
+                "cwd": "C:\\compiler\\msys64\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "компилятор: C:\\compiler\\msys64\\mingw64\\bin\\g++.exe"
+        }
+        
+    ]
+}
