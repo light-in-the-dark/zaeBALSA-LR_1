@@ -8,7 +8,7 @@ void swap(float *arr, int i, int j)
 	arr[j] = tmp;
 }
 
-void compressArray(float *arr, int n)
+float* compressArray(float *arr, int n)
 {
 	for (int temp = 0; temp < n; temp++)
 	{
@@ -30,4 +30,5 @@ void compressArray(float *arr, int n)
 			i++;
 		}
 	}
+	return arr;
 }

@@ -30,7 +30,7 @@ float findNegativeSum(float *arr, int n);
 // Сортировка массива
 void swap(float *arr, int i, int j);
 // Сжатие массива
-void compressArray(float *arr, int n); // должен возвращать указатель
+float* compressArray(float *arr, int n); // должен возвращать указатель
 // Поиск начального индекса
 int findStartIndex(float *arr, int n);
 // Поиск конечного индекса
