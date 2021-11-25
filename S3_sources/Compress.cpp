@@ -1,11 +1,13 @@
 #include "Libraries.h"
 #include "Prototypes.h"
 
-void swap(float *arr, int i, int j)
+float* swap(float *arr, int i, int j)
 {
 	float tmp = arr[i];
 	arr[i] = arr[j];
 	arr[j] = tmp;
+
+	return arr;
 }
 
 float* compressArray(float *arr, int n)

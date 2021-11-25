@@ -28,9 +28,9 @@ float findOddSum(float *arr, int n);
 // Поиск суммы между отрицательными элементами
 float findNegativeSum(float *arr, int n);
 // Сортировка массива
-void swap(float *arr, int i, int j);
+float* swap(float *arr, int i, int j);
 // Сжатие массива
-float* compressArray(float *arr, int n); // должен возвращать указатель
+float* compressArray(float *arr, int n);
 // Поиск начального индекса
 int findStartIndex(float *arr, int n);
 // Поиск конечного индекса
@@ -66,7 +66,7 @@ void maxSumOutput(int maxSum);
 // Действия с текстовым файлом (c - создать, d - удалить)
 void textFile(char action);
 // Вывод инструкции для пользователя
-void instructionsOutput();
+char instructionsOutput(char code);
 // Поиск слов, начинающихся с гласных английских букв
 void findVowelWords();
 // Является ли буква гласной

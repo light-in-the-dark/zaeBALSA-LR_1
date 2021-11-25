@@ -65,10 +65,8 @@ char instructionsOutput(char code)
 
 void wordsResultOutput(int count, char *word)
 {
-    cout << "=====================================================================================" << endl;
     if (count > 0)
     {
-        cout << "Список слов, начинающихся с гласных букв:" << endl;
         cout << count << ") " << word << endl;
     }
     else if (count == 0)

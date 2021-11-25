@@ -31,5 +31,5 @@ void launchSeminar3()
 	
 	delete[] array;
 	cout << "Программа успешно завершена. Для выхода в меню нажмите любую клавишу..." << endl;
-	cin.get();
+	system("pause > nul");
 }

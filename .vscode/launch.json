@@ -5,7 +5,7 @@
             "name": "g++: отладка",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\compiled\\LR_1.exe",
+            "program": "${fileDirname}\\compiled\\LR1_var4.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
